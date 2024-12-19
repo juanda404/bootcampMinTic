@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional anidado</title>
+</head>
+<body>
+    <h1>Condicional anidado</h1>
+    <script>
+        let tieneLicencia = true;
+        let usaCinturon = true;
+        //usas condiciones anidadas para validar ambas condiciones
+        if(tieneLicencia){
+            if(usaCinturon){
+                console.log("puedes conducir");
+            }else{
+                console.log("No puedes conducir sin cinturon");
+            }
+        }else{
+            console.log("No puedes conducir sin licencia");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasignacion de constantes</title>
+</head>
+<body>
+    <h1>Reasignacion de constantes</h1>
+    <script>
+        const EDAD = 39;
+        console.log("Edad original: "+EDAD);
+        try {
+            EDAD=30;
+        } catch (error) {
+            console.log("Error: No se puede reasignar una constante");
+        }
+    </script>
+</body>
+</html>

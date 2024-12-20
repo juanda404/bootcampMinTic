@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condicional switch</title>
+</head>
+<body>
+    <h1>Clondicional con Switch</h1>
+    <script>
+        let dia = "lunes";
+        switch(dia){
+            case "lunes": 
+                console.log("inicio de semana");
+                break;
+            case "viernes":
+                console.log("Fin de la semana laboral.");
+                break;
+            case "sábado":
+                case "domingo":
+                console.log("Fin de semana.");
+                break;
+            default:
+                console.log("Día no reconocido.");
+        }
+    </script>
+</body>
+</html>

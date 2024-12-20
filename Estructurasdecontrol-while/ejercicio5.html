@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serie fibonacci</title>
+</head>
+<body>
+    <h1>Generar una serie fibonacci</h1>
+    <script>
+        let a=0, b=1; siguiente=0;
+        let i= 1;
+        while (i<=10) {
+            console.log(a);
+            siguiente = a+b;
+            a=b;
+            b= siguiente;
+            i++;
+        }
+    </script>
+</body>
+</html>

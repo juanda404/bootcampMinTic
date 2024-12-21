@@ -1,0 +1,21 @@
+[
+    {
+        "nombre": "Juan Vargas",
+        "edad": 30,
+        "ciudad" : "Cali"
+    },
+
+    {
+        "nombre": "Maria Gomez",
+        "edad": 25,
+        "ciudad" : "Jamundí"
+    },
+
+    {
+        "nombre": "Felipe Saruma",
+        "edad": 28,
+        "ciudad" : "Palmira"
+    }
+
+
+]
